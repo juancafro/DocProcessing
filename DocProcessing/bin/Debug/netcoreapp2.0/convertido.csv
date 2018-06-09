@@ -1,0 +1,131 @@
+﻿Descripción;Longitud;Posición inicial;Posición final
+Numero De Item   ;6;1;6
+Codigo De Bin    ;6;7;12
+Codigo De Pct    ;3;13;15
+604=Soles,  840=Dolares ;3;16;18
+Numero Cuenta    ;19;19;37
+Numero Tarjeta   ;19;38;56
+Descripcion Del Tipo De Tarjeta;12;57;68
+Nombre Cliente   ;60;69;128
+Saldo Actual     ;11;129;139
+Signo De Saldo Actual;1;140;140
+Direccion De Correspondencia;120;141;260
+Codigo De Ubigeo;9;261;269
+Descripcion De Ubigeo     ;30;270;299
+Ciudad           ;22;300;321
+Linea De  Credito Disponible;11;322;332
+Signo De Linea De Credito Dsp;1;333;333
+Disponible Para Cash  (Disp/Efec) ;11;334;344
+Signo De Dsp Para Cash;1;345;345
+Mora Total ;11;346;356
+Signo Mora Total;1;357;357
+Fecha De Inicio  De Facturacion;8;358;365
+Fecha Termino  De Facturacion;8;366;373
+Fecha Limite De Pago;8;374;381
+Proxima Fecha De Cierre;8;382;389
+Proxima Fecha De Cargo ;8;390;397
+Pago Minimo Del Mes ;11;398;408
+Signo Pago Minimo Del Mes;1;409;409
+Pago Total Del Mes;11;410;420
+Signo Pago Total Del Mes;1;421;421
+Pago Deuda Total ;11;422;432
+Signo Pago Deuda Total;1;433;433
+Total De Compras + Disp Efec;11;434;444
+Signo Total De Compras + Disp Efec;1;445;445
+Total De Comisiones;11;446;456
+Signo Total De Comisiones;1;457;457
+Total De Intereses;11;458;468
+Signo Total De Intereses;1;469;469
+Fecha De Cuota 01;6;470;475
+Fecha De Cuota 02;6;476;481
+Fecha De Cuota 03;6;482;487
+Fecha De Cuota 04;6;488;493
+Fecha De Cuota 05;6;494;499
+Importe Cuota    01;11;500;510
+Signo Importe Cuota    01;1;511;511
+Importe Cuota    02;11;512;522
+Signo Importe Cuota    02;1;523;523
+Importe Cuota    03;11;524;534
+Signo Importe Cuota    03;1;535;535
+Importe Cuota    04;11;536;546
+Signo Importe Cuota    04;1;547;547
+Importe Cuota    05;11;548;558
+Signo Importe Cuota    05;1;559;559
+Linea De Credito    ;11;560;570
+Signo Linea De Credito;1;571;571
+Limite Disp Efectivo;11;572;582
+Signo Limite Disp Efectivo;1;583;583
+Saldo Anterior;11;584;594
+Signo Saldo Anterior;1;595;595
+Consumos, Gastos, Interes;11;596;606
+Signo Consumos, Gastos, Interes;1;607;607
+Pagos Del Mes;11;608;618
+Signo Pagos Del Mes;1;619;619
+Tasa Efectiva Mensual Compras;7;620;626
+Tasa Efectiva Mensula Efectiva;7;627;633
+Tasa Para Cuotas;7;634;640
+Tasa Moratoria ;7;641;647
+Gastos;11;648;658
+Signo Gastos;1;659;659
+Tipo De Documento  De Identidad;1;660;660
+Numero Documento De Identidad;12;661;672
+Indicador De Impresión De Eecc;1;673;673
+Codigo De Cuadrante;8;674;681
+Pago Minimo.No Sirve;11;682;692
+Signo Pago Minimo. No Sirve;1;693;693
+Pago Minimo - Capital;11;694;704
+Signo Pago Minimo - Capital;1;705;705
+Pago Minimo - Intereses;11;706;716
+Signo Pago Minimo - Intereses;1;717;717
+Pago Minimo - Comisiones;11;718;728
+Signo Pago Minimo - Comisiones;1;729;729
+Pago Total - Capital;11;730;740
+Signo Pago Total - Capital;1;741;741
+Pago Total - Intereses;11;742;752
+Signo Pago Total - Intereses;1;753;753
+Pago Total - Comisiones;11;754;764
+Signo Pago Total - Comisiones;1;765;765
+Referencia ;55;766;820
+Disposición De Efectivo Aprobada;11;821;831
+Signo Disposición De Efectivo Aprobada;1;832;832
+Disposición De Efectivo Utilizada;11;833;843
+Signo Disposición De Efectivo Utilizada;1;844;844
+Crédito Efectivo Aprobada;11;845;855
+Signo Crédito Efectivo Aprobada;1;856;856
+Crédito Efectivo Utilizada;11;857;867
+Signo Crédito Efectivo Utilizada;1;868;868
+Crédito Efectivo Disponible;11;869;879
+Signo Crédito Efectivo Disponible;1;880;880
+Flag De Carita Feliz;1;881;881
+Primer Nombre Del Cliente;25;882;906
+Flag De Carita Feliz Adicional 1;1;907;907
+Flag De Carita Feliz Adicional 2;1;908;908
+Mes De Flag De Carita Feliz;8;909;916
+Mes De Flag De Carita Feliz Adicional 1;8;917;924
+Mes De Flag De Carita Feliz Adicional 2;8;925;932
+Flag De Pago Puntual;1;933;933
+Número De Meses Para Cancelación Rev.;5;934;938
+Fin De Registro. No Sirve;1;939;939
+Grupo - 'G' ;1;940;940
+Flag De Impresión;1;941;941
+Número De Cuotas;10;942;951
+Total De Intereses;10;952;961
+Total De Otros Cargos;10;962;971
+Monto De Linea Paralela;11;972;982
+Signo De Monto De Linea Paralela;1;983;983
+Monto Disponible Linea Paralela;11;984;994
+Signo De Monto Disponible Linea Paralela;1;995;995
+Monto Pago Total Linea Paralela;11;996;1006
+Signo De Monto Pago Total Linea Paralela;1;1007;1007
+Monto De Deuda Total;11;1008;1018
+Signo De Monto De Deuda Total;1;1019;1019
+Mensaje Del Cliente;250;1020;1269
+Mes De Cobro De Membresía;10;1270;1279
+Año De Cobro De Membresia;4;1280;1283
+Periodo Inicio Membresia;15;1284;1298
+Periodo Fin Membresia;15;1299;1313
+Monto Membresía;10;1314;1323
+"Flag Envio Eecc - ""E"" O ""F""";1;1324;1324
+Correo Electrónico;100;1325;1424
+Tasa Revolving;4;1425;1428
+Fin De Trama - *Cab*;5;1429;1433

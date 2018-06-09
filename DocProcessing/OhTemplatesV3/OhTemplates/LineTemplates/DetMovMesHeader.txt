@@ -1,0 +1,18 @@
+﻿<div class="detalle-mov-mes">
+    <table>
+        <tr>
+            <th width="116px">&nbsp</th>
+            <th colspan="4">DETALLE DE MOVIMIENTO DEL MES</th>
+            <th colspan="3">&nbsp</th>
+            <th>&nbsp</th>
+            <th>&nbsp</th>
+            <th>TIT. ADIC</th>
+            <th>&nbsp</th>
+            <th>&nbsp</th>
+            <th>&nbsp</th>
+            <th>&nbsp</th>
+            <th>&nbsp</th>
+            <th>&nbsp</th>
+            <th>&nbsp</th>
+            <th width="132px">&nbsp</th>
+        </tr>

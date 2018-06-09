@@ -1,0 +1,340 @@
+body{
+    background: #f1f1f1;
+}
+
+li{
+    list-style: none;
+}
+
+header {
+    position: relative;
+    float: left;
+    display: block;
+    width: 100%;
+    height: 497px;
+}
+
+footer{
+    position: relative;
+    float: left;
+    display: block;
+    width: 100%;
+    height: 540px;
+}
+.container{
+  width: 1040px;
+  margin: 0 auto;
+  position: relative;
+}
+.cells{
+    position: relative;
+    float: left;
+    display: block;
+    width: 100%;
+    height: 571px;
+}
+
+.bg-app {
+    background: url("file://C:/Users/jsanchez/Downloads/corteOh/corte/img/bg-oh-form.jpg") no-repeat center center;
+    height: 1609px;
+    position: relative;
+    width: auto;
+
+}
+
+.bg-app .data-user {
+    padding: 15px 15px;
+    position: absolute;
+    width: 290px;
+    height: 100px;
+    overflow: hidden;
+    left: 130px;
+    top: 130px;
+    z-index: 10;
+    font-size: 13px;
+}
+
+.data-pay {
+    line-height: 32px;
+    padding: 15px 15px;
+    position: absolute;
+    width: 255px;
+    height: 180px;
+    overflow: hidden;
+    left: 845px;
+    top: 113px;
+    z-index: 10;
+    font-size: 13px;
+}
+
+.date {
+    padding: 15px 15px;
+    position: absolute;
+    height: 70px;
+    width: 500px;
+    overflow: hidden;
+    left: 145px;
+    top: 255px;
+    z-index: 10;
+    font-size:14px;
+}
+
+.date li{
+    display: inline-block;
+}
+
+.data-credit{
+    position: absolute;
+    top: 345px;
+    left: 180px;
+    padding: 15px;
+}
+
+.data-credit table{
+    height: 115px;
+    text-align:center;
+    font-size: 13px;
+    width: 377px;
+}
+
+.detalle-mov-mes {
+    position: absolute;
+    left: 30px;
+    top: 50px;
+}
+
+.detalle-mov-mes table{
+    font-size:13px;
+    width:1052px;
+    font-size: 12px;
+    text-align: left;
+}
+
+.detalle-mov-mes th{
+    padding: 0 5px;
+}
+
+.detalle-plan {
+    position: absolute;
+    left: 30px;
+    top: 120px;
+}
+
+.detalle-plan table{
+    font-size:13px;
+    width:1052px;
+    font-size: 12px;
+    text-align: left;
+}
+
+.detalle-plan th{
+    padding: 0 5px;
+}
+
+
+.total-pago {
+    position: absolute;
+    left: 30px;
+    top: 230px;
+}
+
+.total-pago table{
+    font-size:13px;
+    width:1052px;
+    font-size: 12px;
+    text-align: right;
+}
+
+.total-pago th{
+    padding: 0 5px;
+}
+
+.detalle-cuotas-adl {
+    position: absolute;
+    left: 30px;
+    top: 280px;
+}
+
+.detalle-cuotas-adl table{
+    font-size:13px;
+    width:1052px;
+    font-size: 12px;
+    text-align: left;
+}
+
+.detalle-cuotas-adl th{
+    padding: 0 5px;
+}
+
+.total-cuotas-cnc {
+    position: absolute;
+    left: 30px;
+    top: 390px;
+}
+
+.total-cuotas-cnc table{
+    font-size:13px;
+    width:1052px;
+    font-size: 12px;
+    text-align: right;
+}
+
+.total-cuotas-cnc th{
+    padding: 0 5px;
+}
+
+.credito-efectivo {
+    position: absolute;
+    left: 30px;
+    top: 71px;
+}
+
+.credito-efectivo table{
+    font-size:13px;
+    width:auto;
+    font-size: 12px;
+    text-align: right;
+}
+
+.credito-efectivo th{
+    padding: 0 5px;
+}
+
+.calculo-pago-min {
+    position: absolute;
+    left: 163px;
+    top: 66px;
+}
+
+.calculo-pago-min table {
+    font-size: 13px;
+    width: 470px;
+    font-size: 12px;
+    text-align: right;
+}
+
+.calculo-pago-min th{
+    padding: 0 5px;
+}
+
+.deuda-total-trj {
+    position: absolute;
+    left: 650px;
+    top: 72px;
+}
+
+.deuda-total-trj table{
+    font-size:13px;
+    width:425px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.deuda-total-trj th{
+    padding: 0 5px;
+}
+
+.plan-5-meses {
+    position: absolute;
+    left: 29px;
+    top: 140px;
+}
+
+.plan-5-meses table {
+    font-size: 13px;
+    width: 520px;
+    font-size: 12px;
+    text-align: center;
+    height: 45px;
+}
+
+.plan-5-meses th{
+    padding: 0 5px;
+}
+
+.check-face-text{
+    position: absolute;
+    top: 115px;
+    width: 200px;
+    left: 595px;
+    font-size: 13px;
+}
+
+
+
+.footer-text {
+    position: absolute;
+    top: 205px;
+    width: 1000px;
+    left: 47px;
+}
+
+.pago-del-mes {
+    position: absolute;
+    right: 32px;
+    top: 541px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.sorprendete {
+    position: absolute;
+    right: 80px;
+    top: 390px;
+    font-size: 16px;
+    width: 360px;
+    text-align: center;
+}
+
+.text-up1 {
+    position: absolute;
+    top: 214px;
+    right: 208px;
+    z-index: 100;
+    color: #000;
+    width: 200px;
+}
+
+.text-up2 {
+    position: absolute;
+    top: 214px;
+    right: 125px;
+    z-index: 100;
+    color: #000;
+    width: 200px;
+}
+
+.text-up3 {
+    position: absolute;
+    top: 214px;
+    right: 40px;
+    z-index: 100;
+    color: #000;
+    width: 200px;
+}
+.text-up1 label {
+  transform: rotate(-90deg);
+  text-align: right;
+  font-size: 14px;
+  float: left;
+  margin-right: 12px;
+  width: 100%;
+}
+
+.text-up2 label {
+  transform: rotate(-90deg);
+  text-align: right;
+  font-size: 14px;
+  float: left;
+  margin-right: 12px;
+  width: 100%;
+}
+
+.text-up3 label {
+  transform: rotate(-90deg);
+  text-align: right;
+  font-size: 14px;
+  float: left;
+  margin-right: 12px;
+  width: 100%;
+}

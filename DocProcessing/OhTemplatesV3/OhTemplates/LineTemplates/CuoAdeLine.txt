@@ -1,0 +1,9 @@
+﻿<tr>
+   <th>{{Fechadetransacción}}</th>
+   <th colspan="4">{{Descripcióndelaautorización}}</th>
+   <th colspan="3">titadi</th>
+   <th>D_cuoni numvc totcuo</th>
+   <th>S/ totimp</th>
+   <th>DETEAQUO</th>
+   <th>&nbsp</th>
+</tr>

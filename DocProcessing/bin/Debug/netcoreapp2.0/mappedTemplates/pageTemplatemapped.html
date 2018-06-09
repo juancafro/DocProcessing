@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <title>Oh</title>
+    <link rel="stylesheet" type="text/css" href="http://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+    crossorigin="anonymous">  
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <style>
+  body {
+      background: #f1f1f1;
+    }
+
+    li {
+      list-style: none;
+    }
+
+    header {
+      position: absolute;
+      display: block;
+      top:0px;
+      height: 497px;
+    }
+
+    footer {
+      position: absolute;
+      display: block;
+      top:1068px;
+      height: 497px;
+    }
+
+    .container {
+      width: 1140px;
+      margin: 0 auto;
+      position: relative;
+    }
+
+    .cells {
+    position: absolute;
+    display: block;
+    top: 525px;
+    height: 511px;    
+    width: 100%;
+}
+    .bg-app {
+      background: url("C:/Users/jsanchez/source/repos/DocProcessing/DocProcessing/OhTemplatesV3/OhTemplates/img/bg-oh-form.jpg") no-repeat center center;
+      height: 1609px;
+      position: relative;
+      width: auto;
+
+    }
+
+    .bg-app .data-user {
+      padding: 15px 15px;
+      position: absolute;
+      width: 290px;
+      height: 100px;
+      overflow: hidden;
+      left: 130px;
+      top: 130px;
+      z-index: 10;
+      font-size: 13px;
+    }
+
+    .data-pay {
+      line-height: 32px;
+      padding: 15px 15px;
+      position: absolute;
+      width: 255px;
+      height: 180px;
+      overflow: hidden;
+      left: 845px;
+      top: 113px;
+      z-index: 10;
+      font-size: 13px;
+    }
+
+    .date {
+      padding: 15px 15px;
+      position: absolute;
+      height: 70px;
+      width: 500px;
+      overflow: hidden;
+      left: 145px;
+      top: 258px;
+      z-index: 10;
+      font-size: 13px;
+    }
+
+    .date li {
+      display: inline-block;
+    }
+
+    .data-credit {
+      position: absolute;
+      top: 345px;
+      left: 180px;
+      padding: 15px;
+    }
+
+    .data-credit table {
+      height: 115px;
+      text-align: center;
+      font-size: 13px;
+      width: 377px;
+    }
+
+	.saldo-mes-anterior {
+      position: relative;
+	  padding-left: 15px;
+	  padding-top : 50px;
+    }
+
+    .saldo-mes-anterior table {
+      font-size: 13px;
+      width: 1052px;
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .saldo-mes-anterior th {
+      padding: 0 5px;
+    }
+	
+    .detalle-mov-mes {
+      position: relative;
+	  padding-top : 55px;
+	  padding-left: 15px;
+    }
+
+    .detalle-mov-mes table {
+      font-size: 13px;
+      width: 1052px;
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .detalle-mov-mes th {
+      padding: 0 5px;
+    }
+
+    .detalle-plan {
+      position: relative;
+	  padding-top: 25px;
+	  padding-left : 15px;
+    }
+
+    .detalle-plan table {
+      width: 1052px;
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .detalle-plan th {
+      padding: 0 5px;
+    }
+
+
+    .total-pago {
+      position: relative;
+	  padding-top:7px;
+      padding-left: 15px;
+    }
+
+    .total-pago table {
+      font-size: 13px;
+      width: 1052px;
+      font-size: 12px;
+      text-align: right;
+    }
+
+    .total-pago th {
+      padding: 0 5px;
+    }
+
+    .detalle-cuotas-adl {
+      position: relative;
+	  padding-top : 25px;
+	  left: 25px;
+    }
+
+    .detalle-cuotas-adl table {
+      width: 1052px;
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .detalle-cuotas-adl th {
+      padding: 0 5px;
+    }
+
+    .total-cuotas-cnc {
+      position: relative;
+	  padding-top : 15px;
+      left: 15px;
+    }
+
+    .total-cuotas-cnc table {
+      font-size: 13px;
+      width: 1052px;
+      font-size: 12px;
+      text-align: right;
+    }
+
+    .total-cuotas-cnc th {
+      padding: 0 5px;
+    }
+
+    .credito-efectivo {
+      position: absolute;
+      left: 30px;
+      top: 71px;
+	  text-align:center;
+    }
+
+    .credito-efectivo table {
+      font-size: 13px;
+      width: auto;
+      font-size: 12px;
+      text-align: right;
+    }
+
+    .credito-efectivo th {
+      padding: 0 5px;
+    }
+
+    .calculo-pago-min {
+          position: absolute;
+          left: 168px;
+          top: 74px;
+          width: 462px;
+    }
+
+    .calculo-pago-min table {      
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .calculo-pago-min th {
+      padding: 0 5px;
+    }
+
+    .deuda-total-trj {
+       position: absolute;
+       left: 657px;
+       top: 75px;
+       width: 424px;
+    }
+
+    .deuda-total-trj table {
+      font-size: 13px;
+      width: 424px;
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .deuda-total-trj th {
+      padding: 0 5px;
+    }
+
+    .plan-5-meses {
+      position: absolute;
+      left: 29px;
+      top: 140px;
+	  width: 520px;
+    }
+
+    .plan-5-meses table {
+      font-size: 13px;
+      width: 520px;
+      font-size: 11px;
+      text-align: center;
+      height: 45px;
+    }
+
+    .plan-5-meses th {
+      padding: 0 5px;
+    }
+
+    .check-face-text {
+      position: absolute;
+      top: 115px;
+      width: 190px;
+      left: 590px;
+      font-size: 13px;
+    }
+
+
+
+    .footer-text {
+      position: absolute;
+      top: 210px;
+      width: 1000px;
+      left: 47px;
+      font-size: 14px;
+    }
+
+    .pago-del-mes {
+      position: absolute;
+      left: 1000px;
+      top: -28px;
+      font-size: 13px;
+      font-weight: bold;
+	}
+    .sorprendete {
+      position: absolute;
+      left: 670px;
+      top: 390px;
+      font-size: 16px;
+      width: 360px;
+      text-align: center;
+    }
+
+    .text-up1 {
+      position: absolute;
+      top: 214px;
+      right: 208px;
+      z-index: 100;
+      color: #000;
+      width: 200px;
+    }
+
+    .text-up2 {
+      position: absolute;
+      top: 214px;
+      right: 125px;
+      z-index: 100;
+      color: #000;
+      width: 200px;
+    }
+
+    .text-up3 {
+      position: absolute;
+      top: 214px;
+      right: 40px;
+      z-index: 100;
+      color: #000;
+      width: 200px;
+    }
+
+    .text-up1 label {
+      transform: rotate(-90deg);
+      text-align: right;
+      font-size: 14px;
+      float: left;
+      margin-right: 12px;
+      width: 100%;
+    }
+
+    .text-up2 label {
+      transform: rotate(-90deg);
+      text-align: right;
+      font-size: 14px;
+      float: left;
+      margin-right: 12px;
+      width: 100%;
+    }
+
+    .text-up3 label {
+      transform: rotate(-90deg);
+      text-align: right;
+      font-size: 14px;
+      float: left;
+      margin-right: 12px;
+      width: 100%;
+    }
+
+    .face-icon-1 {
+      position: absolute;
+      right: 240px;
+      top: 108px;
+      font-size: 50px;
+    }
+
+    .face-icon-2 {
+      position: absolute;
+      right: 155px;
+      top: 108px;
+      font-size: 50px;
+    }
+
+    .face-icon-3 {
+      position: absolute;
+      right: 70px;
+      top: 108px;
+      font-size: 50px;
+    }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="bg-app">
+            <header>
+                <div class="data-user">
+    <ul>
+        <li>HAIDEE HUACCHAHUILCA TAYPE</li>
+        <li>AV. ANCASH 800 INT. B101 URB. PARURO 425 39</li>
+        <li>LIMA</li>
+    </ul>
+</div>
+
+<div class="data-pay">
+    <ul>
+        <li>4040710001132719</li>
+        <li>88725</li>
+        <li>13489</li>
+        <li>96964</li>
+        <li>20180315</li>
+    </ul>
+</div>
+<div class="date">
+    <ul>
+        <li>20180119</li>
+        <li>20180218</li>
+    </ul>
+</div>
+<div class="data-credit">
+    <table>
+        <tr>
+            <th>300000</th>
+            <th>96964</th>
+            <th>203036</th>
+        </tr>
+        <tr>
+            <td>90000</td>
+            <td></td>
+            <td>90000</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+</div>
+<div class="sorprendete">
+ <p>Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis.</p>
+</div>
+
+            </header>
+            <div class="cells">
+                <div class="detalle-cuotas-adl">
+    <table>
+        <tr>
+            <th width="116px">&nbsp</th>
+            <th colspan="4">DETALLE DE CUOTAS ADELANTADAS</th>
+            <th colspan="3">&nbsp</th>
+            <th>&nbsp</th>
+            <th>&nbsp</th>
+            <th>&nbsp</th>
+            <th width="132px">&nbsp</th>
+        </tr>
+        <tr>
+            <th>&nbsp</th>
+            <th colspan="4">Compras en cuotas</th>
+            <th colspan="3">&nbsp</th>
+            <th>Cuotas canceladas</th>
+            <th>Importe</th>
+            <th>Total cancelado</th>
+            <th>&nbsp</th>
+<tr>
+   <th>20171223</th>
+   <th colspan="4">COMPRA CUOTAS</th>
+   <th colspan="3">titadi</th>
+   <th>D_cuoni numvc totcuo</th>
+   <th>S/ totimp</th>
+   <th>DETEAQUO</th>
+   <th>&nbsp</th>
+</tr>
+<tr>
+   <th>20171228</th>
+   <th colspan="4">COMPRA CUOTAS</th>
+   <th colspan="3">titadi</th>
+   <th>D_cuoni numvc totcuo</th>
+   <th>S/ totimp</th>
+   <th>DETEAQUO</th>
+   <th>&nbsp</th>
+</tr>
+<tr>
+   <th>20180128</th>
+   <th colspan="4">COMPRA CUOTAS</th>
+   <th colspan="3">titadi</th>
+   <th>D_cuoni numvc totcuo</th>
+   <th>S/ totimp</th>
+   <th>DETEAQUO</th>
+   <th>&nbsp</th>
+</tr>
+<tr>
+   <th>20180129</th>
+   <th colspan="4">COMPRA CUOTAS</th>
+   <th colspan="3">titadi</th>
+   <th>D_cuoni numvc totcuo</th>
+   <th>S/ totimp</th>
+   <th>DETEAQUO</th>
+   <th>&nbsp</th>
+</tr>
+<tr>
+   <th></th>
+   <th colspan="4">TOTAL PAGO ADELANTADO</th>
+   <th colspan="3">titadi</th>
+   <th>D_cuoni numvc totcuo</th>
+   <th>S/ totimp</th>
+   <th>DETEAQUO</th>
+   <th>&nbsp</th>
+</tr>
+<tr>
+   <th>20171223</th>
+   <th colspan="4">COMPRA CUOTAS</th>
+   <th colspan="3">titadi</th>
+   <th>D_cuoni numvc totcuo</th>
+   <th>S/ totimp</th>
+   <th>DETEAQUO</th>
+   <th>&nbsp</th>
+</tr>
+<tr>
+   <th>20171228</th>
+   <th colspan="4">COMPRA CUOTAS</th>
+   <th colspan="3">titadi</th>
+   <th>D_cuoni numvc totcuo</th>
+   <th>S/ totimp</th>
+   <th>DETEAQUO</th>
+   <th>&nbsp</th>
+</tr>
+<tr>
+   <th>20180128</th>
+   <th colspan="4">COMPRA CUOTAS</th>
+   <th colspan="3">titadi</th>
+   <th>D_cuoni numvc totcuo</th>
+   <th>S/ totimp</th>
+   <th>DETEAQUO</th>
+   <th>&nbsp</th>
+</tr>
+<tr>
+   <th>20180129</th>
+   <th colspan="4">COMPRA CUOTAS</th>
+   <th colspan="3">titadi</th>
+   <th>D_cuoni numvc totcuo</th>
+   <th>S/ totimp</th>
+   <th>DETEAQUO</th>
+   <th>&nbsp</th>
+</tr>
+<tr>
+   <th></th>
+   <th colspan="4">TOTAL PAGO ADELANTADO</th>
+   <th colspan="3">titadi</th>
+   <th>D_cuoni numvc totcuo</th>
+   <th>S/ totimp</th>
+   <th>DETEAQUO</th>
+   <th>&nbsp</th>
+</tr>
+<tr>
+   <th>20171223</th>
+   <th colspan="4">COMPRA CUOTAS</th>
+   <th colspan="3">titadi</th>
+   <th>D_cuoni numvc totcuo</th>
+   <th>S/ totimp</th>
+   <th>DETEAQUO</th>
+   <th>&nbsp</th>
+</tr>
+<tr>
+   <th>20171228</th>
+   <th colspan="4">COMPRA CUOTAS</th>
+   <th colspan="3">titadi</th>
+   <th>D_cuoni numvc totcuo</th>
+   <th>S/ totimp</th>
+   <th>DETEAQUO</th>
+   <th>&nbsp</th>
+</tr>
+<tr>
+   <th>20180128</th>
+   <th colspan="4">COMPRA CUOTAS</th>
+   <th colspan="3">titadi</th>
+   <th>D_cuoni numvc totcuo</th>
+   <th>S/ totimp</th>
+   <th>DETEAQUO</th>
+   <th>&nbsp</th>
+</tr>
+<tr>
+   <th>20180129</th>
+   <th colspan="4">COMPRA CUOTAS</th>
+   <th colspan="3">titadi</th>
+   <th>D_cuoni numvc totcuo</th>
+   <th>S/ totimp</th>
+   <th>DETEAQUO</th>
+   <th>&nbsp</th>
+</tr>
+ </table>
+</div>
+<div class="total-cuotas-cnc">
+    <table>
+        <tr>
+            <th>&nbsp</th>
+            <th>&nbsp</th>
+            <th>&nbsp</th>
+            <th>&nbsp</th>
+            <th>Total de cuotas adelantadas</th>
+            <th>MONTO</th>
+            <th>S/ TOT_CUO</th>
+            <th width="132px">&nbsp</th>
+        </tr>
+    </table>
+</div>
+</table>
+</div>
+            </div>
+            <footer>
+                <div class="pago-del-mes">
+    <span>88725</span>
+</div>
+<div class="credito-efectivo">
+    <table>
+        <tr>
+            <th></th>
+        </tr>
+    </table>
+</div>
+<div class="calculo-pago-min">
+    <table>
+        <tr>
+			  <th width="93px">10406</th>
+              <th width="112px">2583</th>
+              <th width="115px">500</th>
+              <th width="141px">13489</th>
+        </tr>
+    </table>
+</div>
+<div class="deuda-total-trj">
+    <table>
+        <tr>
+            <th width="95px"></th>
+            <th width="130px">86446</th>
+            <th width="120px">90231</th>
+            <th width="100px">96964</th>
+        </tr>
+    </table>
+</div>
+<div class="plan-5-meses">
+    <table>
+        <tr>
+            <th width="104px">180415</th>
+            <th width="104px"></th>
+            <th width="104px"></th>
+            <th width="104px"></th>
+            <th width="104px"></th>
+        </tr>
+        <tr>
+            <th>8239</th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+        </tr>
+    </table>
+</div>
+
+<div class="check-face-text">
+    <p>HAIDEE, no te atrases en el pago de tu tarjeta, recuerda que pagar a tiempo tiene ventajas.
+    </p>
+</div>
+  <div class="text-up1">
+          <label>DIC</label>
+        </div>
+        <div class="text-up2">
+          <label>ENE</label>
+        </div>
+        <div class="text-up3">
+          <label></label>
+        </div>
+  <div class="face-icon-1">
+    <i class="far fa-smile"></i>
+  </div>
+  <div class="face-icon-2">
+    <i class="far fa-meh"></i>
+  </div>
+  <div class="face-icon-3">
+    <i class="far fa-frown"></i>
+  </div>
+<div class="footer-text">
+    <p>INFORMACIÓN IMPORTANTE 1. La COMISIÓN DE MEMBRESÍA es de S/ 39.00 para Tarjeta oh! Clásica/MasterCard/Visa y S/ 49.00
+        para Tarjeta oh! International. PRÓXIMO COBRO DE MEMBRESÍA: FEBRERO. 2. Si usted solamente realiza el pago
+        mínimo de su deuda en soles y no realiza más operaciones, ésta se cancelará en 14 mes(es), pagando S/ 2583 de intereses
+        y S/  por comisiones y gastos. 3. TEA Tasa efectiva anual, por compras y disposición de efectivo revolvente
+        es 9200.</p>
+</div>
+
+            </footer>
+
+        </div>
+    </div>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

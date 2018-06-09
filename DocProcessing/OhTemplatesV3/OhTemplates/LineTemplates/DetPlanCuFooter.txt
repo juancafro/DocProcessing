@@ -1,0 +1,13 @@
+﻿<div class="total-pago">
+    <table>
+        <tr>
+            <th></th>
+            <th></th>
+            <th>Total pago de cuotas del mes</th>
+            <th>MONTO</th>
+            <th>S/</th>
+            <th>TOT_CUO</th>
+            <th width="132px">&nbsp</th>
+        </tr>
+    </table>
+</div>

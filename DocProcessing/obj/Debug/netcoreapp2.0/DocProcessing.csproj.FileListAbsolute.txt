@@ -1,0 +1,11 @@
+C:\Users\jsanchez\source\repos\DocProcessing\DocProcessing\bin\Debug\netcoreapp2.0\DocProcessing.deps.json
+C:\Users\jsanchez\source\repos\DocProcessing\DocProcessing\bin\Debug\netcoreapp2.0\DocProcessing.runtimeconfig.json
+C:\Users\jsanchez\source\repos\DocProcessing\DocProcessing\bin\Debug\netcoreapp2.0\DocProcessing.runtimeconfig.dev.json
+C:\Users\jsanchez\source\repos\DocProcessing\DocProcessing\bin\Debug\netcoreapp2.0\DocProcessing.dll
+C:\Users\jsanchez\source\repos\DocProcessing\DocProcessing\obj\Debug\netcoreapp2.0\DocProcessing.csproj.CoreCompileInputs.cache
+C:\Users\jsanchez\source\repos\DocProcessing\DocProcessing\obj\Debug\netcoreapp2.0\DocProcessing.AssemblyInfoInputs.cache
+C:\Users\jsanchez\source\repos\DocProcessing\DocProcessing\obj\Debug\netcoreapp2.0\DocProcessing.AssemblyInfo.cs
+C:\Users\jsanchez\source\repos\DocProcessing\DocProcessing\bin\Debug\netcoreapp2.0\DocProcessing.pdb
+C:\Users\jsanchez\source\repos\DocProcessing\DocProcessing\obj\Debug\netcoreapp2.0\DocProcessing.dll
+C:\Users\jsanchez\source\repos\DocProcessing\DocProcessing\obj\Debug\netcoreapp2.0\DocProcessing.pdb
+C:\Users\jsanchez\source\repos\DocProcessing\DocProcessing\obj\Debug\netcoreapp2.0\DocProcessing.csprojAssemblyReference.cache

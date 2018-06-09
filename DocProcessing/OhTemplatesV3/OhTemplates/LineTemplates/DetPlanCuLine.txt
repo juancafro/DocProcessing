@@ -1,0 +1,13 @@
+﻿<tr>
+   <th>{{Fechadetransacción}}</th>
+   <th colspan="4">{{Descripcióndelaautorización}}</th>
+   <th colspan="3">{{T)itular-(A)dicional}}</th>
+   <th>{{Númerodecuota}}</th>
+   <th>{{Totaldecuota}}}</th>
+   <th>S/ {{Signodevalordecompra}} {{Valordecompra}}</th>
+   <th>S/ {{SignoCapitaldelacuota}} {{Capitaldelacuota}}</th>
+   <th>S/ {{SignoInterésdelacuota}} {{Interésdelacuota}}</th>
+   <th>S/ cuota-1<br>S/ cuota-2</th>
+   <th>{{TasaTEA-Cuota/Cred.Efec}}</th>
+   <th>&nbsp</th>
+</tr>
